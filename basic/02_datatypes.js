@@ -12,3 +12,12 @@ let loggin=true
 //symbol => unique
 
 //object 
+
+let score="23ab"
+
+console.log(typeof(score))
+
+score=Number(score)
+console.log(typeof(score))
+console.log(score)
+

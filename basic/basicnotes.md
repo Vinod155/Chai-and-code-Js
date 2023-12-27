@@ -19,3 +19,21 @@
 //symbol => unique
 
 //object 
+
+# null is object and undefined is a type
+   typeof(null) -->object
+   typeof(undefined) -->undefined
+
+# Conversion 
+ 
+ n="23ab"
+ n=Number(n)
+ typeof(n)  --> number
+ console.log(n) --> NaN (not a number)
+
+ var1=""
+ var1=Boolean(var1) // false
+
+ var1="aba"
+ var1=Boolean(var1) // true
+
